@@ -20,9 +20,9 @@ function getUserList(age, sex, callback) {
   // called with getUserList(18, function(list) {});
   var args = vargs(arguments, 3);
 
-  age      = args.arg1 || 0; // age         = 18
-  sex      = args.arg2 || 'female'; // sex  = 'female'
-  callback = args.arg3; // or args.callback
+  var age      = args.arg1 || 0; // age         = 18
+  var sex      = args.arg2 || 'female'; // sex  = 'female'
+  var callback = args.arg3; // or args.callback
 }
 
 ```
