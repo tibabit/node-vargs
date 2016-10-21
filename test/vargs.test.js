@@ -6,6 +6,14 @@ const vargs = require('../');
 
 describe('vargs', function() {
 
+  it('#should throw an error when called with non-array arguments', function() {
+    expect(vargs.bind(null, null)).to.throw(TypeError);
+  });
+
+  it('#should throw an error when called with -ve numArguments', function() {
+    expect(vargs.bind(null, [], -1)).to.throw(TypeError);
+  });
+
   it('#no arguments', function() {
     var args = vargs([], 3);
     expect(args.arg1).to.be.null;

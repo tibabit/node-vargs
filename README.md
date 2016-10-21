@@ -12,6 +12,18 @@ Purpose of this module is to handle optional arguments easily and efficiently.
 npm install node-vargs --save
 ```
 
+## Run tests
+
+```sh
+npm test
+```
+
+## Run coverage
+
+```sh
+npm run cover
+```
+
 ## Examples
 
 ```js
