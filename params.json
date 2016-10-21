@@ -1,0 +1,6 @@
+{
+  "name": "Node-vargs",
+  "tagline": "Optional arguments made easy.",
+  "body": "# node-vargs\r\nOptional arguments made easy.\r\n\r\n## Purpose\r\nPurpose of this module is to handle optional arguments easily and efficiently.\r\n\r\n## Installation\r\n\r\n```sh\r\nnpm install node-vargs --save\r\n```\r\n\r\n## Examples\r\n\r\n```js\r\n\r\nvar vargs = require('node-vargs');\r\n\r\nfunction getUserList(age, sex, callback) {\r\n  // called with getUserList(18, function(list) {});\r\n  var args = vargs(arguments, 3);\r\n\r\n  var age      = args.arg1 || 0; // age         = 18\r\n  var sex      = args.arg2 || 'female'; // sex  = 'female'\r\n  var callback = args.arg3; // or args.callback\r\n}\r\n\r\n```\r\n\r\nFor more examples see test/vargs.test.js\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
