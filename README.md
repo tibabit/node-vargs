@@ -1,6 +1,8 @@
 # node-vargs
 Optional arguments made easy.
 
+[![NPM](https://nodei.co/npm/node-vargs.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/node-vargs/)
+
 ## Purpose
 Purpose of this module is to handle optional arguments easily and efficiently.
 
