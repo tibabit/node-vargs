@@ -26,8 +26,7 @@ npm run cover
 
 ## Examples
 
- - optional arguments
-
+##### optional arguments
 ```js
 "use strict";
 
@@ -53,9 +52,9 @@ getUserList(18, function(result) {
 
 // NOTE: number of arguments passed is totoal number of arguments, including callback
 ```
- - optional arguments with default value
+##### optional arguments with default value
 
- ```js
+```js
 "use strict";
 
 var vargs = require('node-vargs');
@@ -73,6 +72,11 @@ makePicture('Orange');
 
 // NOTE: total number of elements in default values array must match total number of arguments
 // in function, including callback. See example below
+
+```
+
+##### optional arguments with default value and callback
+```js
 
 "use strict";
 
