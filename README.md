@@ -29,7 +29,7 @@ npm run cover
 ```js
 "use strict";
 
-var vargs = require('../');
+var vargs = require('node-vargs');
 
 function getUserList(age, sex, callback) {
   // called with getUserList(18, function(list) {});
